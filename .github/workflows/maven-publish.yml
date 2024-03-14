@@ -60,5 +60,5 @@ jobs:
       - name: Build App Installer Bundles
         uses: shannah/jdeploy@master
         with:
-          target_repository: 'jbgwese/demo'
+          target_repository: 'jbgwese/Demo'
           github_token: ${{ secrets.JDEPLOY_RELEASES_TOKEN }}
